@@ -1,9 +1,8 @@
 const camelCase = 1;
 const snake_case = 2;
 const PaskalCase = 3;
-alert(camelCase);
-alert(snake_case);
-alert(PaskalCase);
+const result2 = `${camelCase} ${snake_case} ${PaskalCase}`;
+alert(result2);
 
 const str1 = 'Салам, ';
 const str2 = 'Бишкек!';
