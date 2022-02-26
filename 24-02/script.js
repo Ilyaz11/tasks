@@ -1,15 +1,18 @@
 
 /*********** И (&&) ************/
+//true + true = true
 const number = 50;
 const firstNum = 40;
 const secondNum = 60;
 const access = number > firstNum && number < secondNum;
 console.log(access);
 
+//true + false = false
 const a = 3;
 const b = 1;
 console.log(a > 0 && b < 0);
 
+//false + false = false
 const min = 10;
 const sec = 60;
 const hour = 9;
@@ -32,26 +35,18 @@ const estimated_age = 15;
 console.log(age >= 21 || age <= estimated_age);
 
 
-let num = 10;
-result = ++num;
-result = ++num;
-result = --num;
-console.log(result);
+let num1 = 10;
+num1 = ++num1;
+num1 = ++num1;
+num1 = --num1;
+console.log(num1);
 
 
 
-let m = 47;
-m += 7;
-alert(m);
+let num = 47;
+num += 7;
+num -= 18;
+num *= 10;
+num /= 15;
+alert(num);
 
-let s = 47;
-s -= 18;
-alert(s);
-
-let q = 47;
-q *= 10;
-alert(q);
-
-let k = 47;
-k /= 15;
-alert(k);
