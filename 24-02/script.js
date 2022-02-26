@@ -8,7 +8,7 @@ console.log(access);
 
 const a = 3;
 const b = 1;
-console.log(3 > 0 && 1 < 0);
+console.log(a > 0 && b < 0);
 
 const min = 10;
 const sec = 60;
