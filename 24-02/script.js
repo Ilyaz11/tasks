@@ -33,12 +33,11 @@ console.log(age >= 21 || age <= estimated_age);
 
 
 let num = 10;
-result1 = ++num;
-result2 = ++num;
-result3 = --num;
-console.log(result1);
-console.log(result2);
-console.log(result3);
+result = ++num;
+result = ++num;
+result = --num;
+console.log(result);
+
 
 
 let m = 47;
