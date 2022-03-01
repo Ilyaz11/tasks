@@ -22,7 +22,7 @@ console.log(result);
 /*********** || ************/
 const x = 20;
 const y = 10;
-const z = x != 20 || y != 11;
+const z = x !== 20 || y !== 11;
 console.log(z);
 
 let day = 7;
