@@ -1,4 +1,4 @@
-var arr = [1,2,3,11,4,7,8,10,12,18,9,1,5,17];
+const arr = [1,2,3,11,4,7,8,10,12,18,9,1,5,17];
 let i;
 for (i = 0; i < arr.length; i++){
     if(arr[i] > 0 && arr[i] < 10){
@@ -9,10 +9,10 @@ for (i = 0; i < arr.length; i++){
 
 
 /***** 2 *****/
-var num = [1,2,5,6,88,5];
-var sum = 0;
-for(i = 0; i < arr.length; i++){
-    sum += arr[i];
+const num = [1,2,5,6,88,5];
+let sum = 0;
+for(let i = 0; i < num.length; i++){
+    sum += num[i];
 }
 console.log(sum);
 
