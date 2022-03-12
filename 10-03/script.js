@@ -6,5 +6,5 @@ function showNumber(a){
     console.log(a);
 }
 
-let result = minNumber(8, 65);
+let result = minNumber(10, 15);
 showNumber(result);
