@@ -5,7 +5,7 @@ let result = arr.reduce(function (sum, elem) {
     }else {
         return sum;
     }
-});
+},0);
 
 console.log(result);
 
